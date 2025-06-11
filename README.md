@@ -1,0 +1,2 @@
+# macos-zip-desktop
+
