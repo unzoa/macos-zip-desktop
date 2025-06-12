@@ -11,9 +11,6 @@ use zip::write::FileOptions;
 use zip::ZipWriter;
 use tauri::Emitter;
 
-// TODO 压缩完后，打开zip文件所在文件夹即可，不用解压
-// TODO 要能压缩文件，不止是文件夹
-// TODO 要能拖拽进入app
 #[tauri::command]
 async fn compress_folder(
     source_dir: String,
